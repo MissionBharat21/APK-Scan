@@ -1,0 +1,7 @@
+androguard>=3.4.0
+rich>=13.7.0
+yara-python>=4.3.0
+requests>=2.31.0
+colorama>=0.4.6
+cryptography>=41.0.0
+python-magic>=0.4.27
