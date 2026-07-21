@@ -1,0 +1,28 @@
+{
+  "reports_dir": "reports",
+  "max_file_size_gb": 3,
+  "log_file": "apk_sentinel.log",
+  "log_level": "INFO",
+  "offline_mode": false,
+  "watch_interval_seconds": 3600,
+  "guard_interval_seconds": 10,
+  "alert_cooldown_seconds": 1800,
+  "yara": {
+    "rules_dir": "rules"
+  },
+  "alerts": {
+    "termux_notify": false,
+    "termux_sms": { "enabled": false, "number": "" },
+    "telegram": { "enabled": false, "bot_token": "", "chat_id": "" },
+    "email": {
+      "enabled": false,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "from_address": "",
+      "to_address": ""
+    },
+    "webhook": { "enabled": false, "url": "", "style": "generic" }
+  }
+}
