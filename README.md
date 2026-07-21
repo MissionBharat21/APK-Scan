@@ -8,6 +8,6 @@ and multi-channel alerting.
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/APK-Sentinel.git
-cd APK-Sentinel
+git clone https://github.com/MissionBharat21/APK-Scan.git
+cd APK-Scan
 pip install -r requirements.txt
